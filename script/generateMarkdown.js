@@ -1,7 +1,6 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// A function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 var license;
-
 function renderLicenseBadge(license) {
   switch(license) {
     case "Apache License 2.0":
@@ -51,7 +50,7 @@ function generateMarkdown(data) {
   ${data.email}
   
   ## License
-  ${renderLicenseLink(data.license)}`;
+  ${renderLicenseLink(license)}`;
 }
 
 module.exports = generateMarkdown;
