@@ -51,7 +51,7 @@ function generateMarkdown(data) {
   ${data.email}
   
   ## License
-  ${renderLicenseLink(license)}`;
+  ${renderLicenseLink(data.license)}`;
 }
 
 module.exports = generateMarkdown;
