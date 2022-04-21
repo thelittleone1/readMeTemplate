@@ -1,19 +1,22 @@
-#Project: d
+
+  
+  # Project: 
+  Movie-ish
   
   ## Description
-  d
+  Movie-ish is a random movie generator
 
   ## Installation
-  d
+  No installation needed, this is a web application
 
   ## Instructions
-  d
+  You will lanch the web app from your browser and click on the movie-ish button to generate random movies
 
   ## Github Username
-  d
+  thelittleone1
 
   ## Email
-  d
+  qurooj0226@gmail.com
   
   ## License
-  
+  [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)

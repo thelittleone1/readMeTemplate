@@ -39,7 +39,10 @@ function renderLicenseLink(license) {
 function generateMarkdown(data) {
   console.log(data);
 
-  return `#Project: ${data.projectTitle}
+  return `
+  
+  # Project: 
+  ${data.projectTitle}
   
   ## Description
   ${data.description}
