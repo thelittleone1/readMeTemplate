@@ -1,10 +1,11 @@
 // A function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-var license;
+//var license;
+
 function renderLicenseBadge(license) {
   switch(license) {
     case "Apache License 2.0":
-      return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
     case "GNU General Public License v3.0":
       return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
     case "MIT License":
@@ -24,7 +25,10 @@ function renderLicenseBadge(license) {
 
 // A function that returns the license link
 function renderLicenseLink(license) {
-  return `#License ${renderLicenseBadge(license)}`;
+    // console.log(license);
+    //console.log(renderLicenseBadge(license));
+    return `${renderLicenseBadge(license)}`;
+  
 }
 
 // // TODO: Create a function that returns the license section of README
@@ -33,7 +37,10 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data);
+
   return `#Project: ${data.projectTitle}
+  
   ## Description
   ${data.description}
 
@@ -50,7 +57,7 @@ function generateMarkdown(data) {
   ${data.email}
   
   ## License
-  ${renderLicenseLink(license)}`;
+  ${renderLicenseLink(data.license[0])}`;
 }
 
 module.exports = generateMarkdown;
