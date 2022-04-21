@@ -10,5 +10,6 @@
 Node.js: https://nodejs.org/en/
 
 Sample ReadMe:
-![image](https://user-images.githubusercontent.com/36391381/164382690-99fe4597-55bd-4a1e-96d5-96b142715fd4.png)
+![image](https://user-images.githubusercontent.com/36391381/164382898-9b319af5-da1c-44b8-a1d5-05531e0d1b99.png)
+
 
