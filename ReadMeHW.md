@@ -4,7 +4,7 @@
   Project Title
   
   ## Description
-  Project Description
+  Project Description 
 
   ## Table of Contents
   - [Installation](#installation)
@@ -15,25 +15,25 @@
   - [License](#license)
 
   ## Installation
-  Installation Instructions
+  Here you can enter in how to install your application
 
   ## Usage
-  Usage Instructions
+  Here you can enter usage instructions for you application
 
   ## Contributors
-  Give a brief answer on how someone can contribute to this project
+  Here you can enter how users can contribute to your project
 
   ## Tests
-  Give a brief answer on how to test this application
+  Here you can enter in how to test your application 
 
   ## Github Username
-  github
+  Github
 
   ## Email
   qurooj0226@gmail.com
 
   ## Questions
-  [Github](https://github.com/github)
+  [Github](https://github.com/Github)
   
   ## License
-  [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
