@@ -53,6 +53,7 @@ const questions = [
             "GNU General Public License v3.0",
             "MIT License",
             "BSD 2-Clause'Simplified' License",
+            "BSD-3-Clause",
             "Creative Commons Zero v1.0 Universal",
             "Eclipse Public License 2.0",
             "The Unlicense"

@@ -1,22 +1,39 @@
 
   
   # Project: 
-  Movie-ish
+  Project Title
   
   ## Description
-  A random movie geneartor application
+  Project Description
+
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributors](#contributors)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  - [License](#license)
 
   ## Installation
-  No installation required
+  Installation Instructions
 
-  ## Instructions
-  Enter the web app and click the movie-ish button to generate random movies
+  ## Usage
+  Usage Instructions
+
+  ## Contributors
+  Give a brief answer on how someone can contribute to this project
+
+  ## Tests
+  Give a brief answer on how to test this application
 
   ## Github Username
-  thelittleone1
+  github
 
   ## Email
   qurooj0226@gmail.com
+
+  ## Questions
+  [Github](https://github.com/github)
   
   ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
