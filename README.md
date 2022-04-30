@@ -9,7 +9,7 @@
 ## Resources 
 Node.js: https://nodejs.org/en/
 
-Sample ReadMe:
+Sample of Application Running:
 
- indexjs.mp4
+https://www.youtube.com/watch?v=QedL5EqDMoE
 
