@@ -1,7 +1,6 @@
 // A function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 //var license;
-
 function renderLicenseBadge(license) {
   switch(license) {
     case "Apache License 2.0":
@@ -31,11 +30,8 @@ function renderLicenseLink(license) {
   
 }
 
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+// Creates a function to generate markdown for the README
 function generateMarkdown(data) {
   console.log(data);
 
@@ -47,17 +43,34 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#howTo)
+  - [Contributing](#contributes)
+  - [Testing](#tests)
+  - [Questions](#questions)
+  - [License](#license)
+
   ## Installation
   ${data.install}
 
   ## Instructions
   ${data.howTo}
 
+  ## Contributors
+  ${data.contributes}
+
+  ## Tests
+  ${data.tests}
+
   ## Github Username
   ${data.gitHubName}
 
   ## Email
   ${data.email}
+
+  ## Questions
+  [Github](https://github.com/${gitHubName})
   
   ## License
   ${renderLicenseLink(data.license[0])}`;
